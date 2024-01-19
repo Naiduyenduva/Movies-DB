@@ -1,3 +1,40 @@
-h1 {
-    color: red;
+.lu{
+  background-color: blueviolet;
+}
+.ck{
+  color: aqua;
+}
+.yy{
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+#myid{
+  background-color: darkgoldenrod;
+  padding: 5px;
+}
+.myh1{
+  color: rebeccapurple;
+}
+#skills{
+  background-color: black;
+  color: red;
+}
+body{
+  background-color: black;
+}
+#about{
+  color: red;
+}
+#Projects{
+  color: greenyellow;
+}
+#contactme{
+  color: red;
+}
+#button{
+  color: red;
+  
+}
+#nav{
+  color: aqua;
 }

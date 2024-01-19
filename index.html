@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Javascript DOM</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PortFolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body >
-    <h1>A Simple List Adding Project</h1>
-    <p>Input some text and click add button</p>
-    <ol id = "mylist"></ol>
-    <input type = "text" id = "itemInput">
-    <button id = "addbutton">Add</button>
-
-    <script>
-     const inputtype = document.getElementById("itemInput");
-     const bclicked = document.getElementById("addbutton");
-     const mylist = document.getElementById("mylist");
-     bclicked.addEventListener("click", function() {
-       const enteredText = inputtype.value;
-       const newLi = document.createElement("li");
-       newLi.textContent = enteredText;
-       mylist.appendChild(newLi);
-       
-     })
-    </script>
-
+<body>
+  <h1 class = "lu ck yy ">My PortFolio</h1>
+  <div id ="nav">
+      <h3>Navigation</h3>
+      <ul>
+        <li> About Me </li>
+        <li> Skills </li>
+        <li> Projects </li>
+        <li> Contact Me </li>
+      </ul>
+  </div>
+  <div id = "about">
+    <h3> About Me </h3>
+    <p>My self Laxmu Naidu final year B.tech student in computer science stream.Learning mern stack.Seeking for the <strong>internship</strong> oppurtunities in Web Development.I want to make products which is used to the real world and very much excited with the coding and computers.</p>
+  </div>
+  <div id ="skills">
+    <h3> Skills </h3>
+    <ol>
+      <li> HTML </li>
+      <li> CSS </li>
+      <li> JavaScript </li>
+      <li> Java </li>
+    </ol>
+  </div>
+  <div id ="Projects">
+    <h3> Projects </h3>
+    <ul>
+      <li> Portfolio </li>
+      <li> ecommerce page </li>
+      <li> vs code clone </li>
+      <li> Amazon clone </li>
+    </ul>
+  </div>
+  <div id ="contactme">
+    <h3>Contact Me</h3>
+    <p>Name</p>
+    <input type ="text" id ="name">
+    <p>Email</p>
+    <input type="email" id ="email">
+    <p>Phone number</p>
+    <input type ="text" id ="number">
+    <p>Message</p>
+    <input type ="text" id="message">
+  </div>
+  <div id="button">
+    <button>Submit</button>
+  </div>
 </body>
 </html>
