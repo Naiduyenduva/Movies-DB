@@ -1,40 +1,31 @@
-.lu{
-  background-color: blueviolet;
+input {
+border: 2px solid blueviolet;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30px;
+width: 300px;
 }
-.ck{
-  color: aqua;
+div {
+  margin-top: 50px;
+  margin-left: 300px;
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  padding: 100px;
+   border-radius: 10px;
+   border: 5px solid black;
 }
-.yy{
-  padding: 5px;
-  font-family: 'Courier New', Courier, monospace;
-}
-#myid{
-  background-color: darkgoldenrod;
-  padding: 5px;
-}
-.myh1{
-  color: rebeccapurple;
-}
-#skills{
-  background-color: black;
-  color: red;
-}
-body{
-  background-color: black;
-}
-#about{
-  color: red;
-}
-#Projects{
-  color: greenyellow;
-}
-#contactme{
-  color: red;
-}
-#button{
-  color: red;
-  
-}
-#nav{
-  color: aqua;
+button {
+  margin-left: 70px;
+  height: 30px;
+  width: 90px;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
